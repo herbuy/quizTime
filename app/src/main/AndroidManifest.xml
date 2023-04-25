@@ -14,7 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="libraries.android.uiprototyper.v2.samples.layata.ChatActivity"></activity>
+        <activity android:name="features.askquestion.AskQuestionActivity"></activity>
+        <activity android:name="libraries.android.uiprototyper.v2.samples.layata.ChatActivity" />
         <activity android:name="home.HomeActivity" />
         <activity android:name="mytrips.MyTripsActivity" />
         <activity android:name="activefamilies.ontheroad.OnTheRoadActivity" />
@@ -22,7 +23,7 @@
         <activity android:name="drivertriplist.DriverFamilyActivity" />
         <activity android:name="pickuppassenger.PickablePassengerListActivity" />
         <activity android:name="pickinguppassenger.PickingPassengerActivity" />
-        <activity android:name="com.skyvolt.quiztime.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
