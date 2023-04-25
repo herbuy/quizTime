@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     private View makeContentView() {
         TextView textView = new TextView(this);
-        textView.setText("I am a simple app");
+        textView.setText("Hello World");
         return textView;
     }
 
